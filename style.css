@@ -37,16 +37,16 @@
     display: flex;
 }
 ul {
-    margin:0;
+    margin: 0;
     padding: 0px;
 }
 li,
 h3 {
-    list-style:none;
+    list-style: none;
 }
 input,
 button {
-    outline:none;
+    outline: none;
 }
 .btn {
     background: none;
@@ -146,14 +146,14 @@ button {
 /* Edit Task */
 #incomplete-tasks .list .input-text,
 #completed-tasks .list .input-text {
-    display:none
+    display: none
 }
 #incomplete-tasks .list.edit-mode .input-text,
 #completed-tasks .list.edit-mode .input-text {
-    display:inline-block;
-    width:224px
+    display: inline-block;
+    width: 224px
 }
 #incomplete-tasks .list.edit-mode .label,
 #completed-tasks .list.edit-mode .label {
-    display:none;
+    display: none;
 }
