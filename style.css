@@ -17,9 +17,11 @@
     font-family: fantasy, cursive;
 }
 @media (max-width:768px) {
+
     .information {
         text-align: center;
     }
+
 }
 .main {
     display: block;
@@ -111,7 +113,6 @@ button {
 .list > * {
     vertical-align: middle;
 }
-
 .list > .checkbox {
     margin: 0 10px;
 }
