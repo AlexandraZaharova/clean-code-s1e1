@@ -31,7 +31,7 @@
 .task {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 .add-wrapper {
     display: flex;
@@ -123,7 +123,7 @@ button {
     width: 226px;
 }
 .list > .input-text {
-    width: 226px
+    width: 226px;
 }
 .list > .delete:hover {
     color: #cf2323;
@@ -146,12 +146,12 @@ button {
 /* Edit Task */
 #incomplete-tasks .list .input-text,
 #completed-tasks .list .input-text {
-    display: none
+    display: none;
 }
 #incomplete-tasks .list.edit-mode .input-text,
 #completed-tasks .list.edit-mode .input-text {
     display: inline-block;
-    width: 224px
+    width: 224px;
 }
 #incomplete-tasks .list.edit-mode .label,
 #completed-tasks .list.edit-mode .label {
